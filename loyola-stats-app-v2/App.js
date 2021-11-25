@@ -9,7 +9,7 @@ export default function App() {
 
   return (
     <NativeBaseProvider style={styles.container}>
-    <Text style={styles.header}>Loyola High School Varsity Basketball Roster (2019-20)</Text>
+    <Text style={styles.header}>Loyola High School Varsity Basketball Roster (2020-21)</Text>
     <FlatList
       data={data}
       renderItem={({ item }) => (
