@@ -8,7 +8,7 @@ export default function App() {
 
   return (
     <NativeBaseProvider style={styles.container}>
-    <Text style={styles.header}>Harvard-Westlake High School Varisty Basketball Roster (2019-20)</Text>
+    <Text style={styles.header}>Harvard-Westlake High School Varsity Basketball Roster (2019-20)</Text>
     <FlatList
       data={data}
       renderItem={({ item }) => (
